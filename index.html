@@ -18,7 +18,7 @@
         justify-content: center;
     }
     
-    .hantu1 {
+    /* .hantu1 {
         width: 140px;
         height: 160px;
         background-image: linear-gradient(to bottom, #000000, #191717, #2a2727, #3d3837, #504a48, #645e5c, #797271, #8f8786, #aaa4a5, #c5c1c3, #e1e0e1, #ffffff);
@@ -27,27 +27,43 @@
         cursor: pointer;
         animation: floating1 3s infinite ease-in-out;
         margin: auto;
-    }
+    } */
 
     .hantu2 {
-        width: 140px;
-        height: 160px;
+        width: 160px;
+        height: 180px;
         background-image: linear-gradient(to bottom, #ffffff, #f2f2f2, #e6e5e5, #dad8d8, #cecbcb, #b7b4b4, #a19e9d, #8b8887, #676464, #444343, #252424, #000000);        border-radius: 70px 70px 0 0;
         position: relative;
         cursor: pointer;
-        animation: floating2 3s infinite ease-in-out;
+        animation: floating1 2s infinite ease-in-out;
         margin: auto;
     }
 
     @keyframes floating1 {
+        0% {
+            transform: translateX(-100px);
+        }
+
         50% {
-            transform: translateY(-30px);
+            transform: translateX(100px);
+        }
+
+        100% {
+            transform: translateX(-100px);
         }
     }
 
-    @keyframes floating2 {
+    @keyframes shrinking {
+        0% {
+            width: 100%;
+        }
+
         50% {
-            transform: translateX(-100px);
+            width: 200%;
+        }
+        
+        100% {
+            width: 100%;
         }
     }
     
@@ -71,14 +87,6 @@
         height: 24px;
         background-color: #ed4d18;
         border-radius: 50%;
-        transition: .3s linear;
-    }
-
-    .mouth {
-        background-color: #ed4d18;
-        margin: auto;
-        border-radius: 0 0 20px 20px;
-        transition: .3s linear;
     }
 
     .feet {
@@ -88,12 +96,12 @@
         display: flex;
     }
 
-    .hantu1 .feet span {
+    /* .hantu1 .feet span {
         flex: 1;
         height: 20px;
         background-color: white;
         border-radius: 0 0 20px 20px;
-    }
+    } */
 
     .hantu2 .feet span {
         flex: 1;
@@ -110,16 +118,25 @@
         border-radius: 0 0 20px 12px;
     }
 
+    .shadow {
+        flex: 1;
+        height: 30px;
+        width: 150px;
+        margin-top: 15rem;
+        border-radius: 50%;
+        background-color: black;
+        animation: shrinking 2s infinite ease-in-out;
+    }
+
     </style>
 
 <body>
     <!-- <div class="hantu1">
-        <div class="face">
-            <div class="eyes">
-                <span></span>
-                <span></span>
-            </div>
-            <div class="mouth">
+            <div class="face">
+                <div class="eyes">
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
 
@@ -134,18 +151,16 @@
         <div class="face">
             <div class="eyes">
                 <span></span>
-                <span></span>
-            </div>
-            <div class="mouth">
+                <span></span>            
             </div>
         </div>
-
         <div class="feet">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
         </div>
+        <div class="shadow"></div>
     </div>
 </body>
 
