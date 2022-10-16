@@ -4,134 +4,8 @@
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
     <title> Wow Hantu! </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hantuStyle.css">
 </head>
-
-<style>
-    body {
-        margin: 0; 
-        padding: 0; 
-        background-image: linear-gradient(to right top, #fb9205, #fc8700, #fd7b00, #fe6e00, #ff6000, #ed4d18, #d93b22, #c42b27, #941f2b, #631926, #34131a, #000000); 
-        height: 100vh; 
-        display: flex; 
-        align-items: center; 
-        justify-content: center;
-    }
-    
-    /* .hantu1 {
-        width: 140px;
-        height: 160px;
-        background-image: linear-gradient(to bottom, #000000, #191717, #2a2727, #3d3837, #504a48, #645e5c, #797271, #8f8786, #aaa4a5, #c5c1c3, #e1e0e1, #ffffff);
-        border-radius: 70px 70px 0 0;
-        position: relative;
-        cursor: pointer;
-        animation: floating1 3s infinite ease-in-out;
-        margin: auto;
-    } */
-
-    .hantu2 {
-        width: 160px;
-        height: 180px;
-        background-image: linear-gradient(to bottom, #ffffff, #f2f2f2, #e6e5e5, #dad8d8, #cecbcb, #b7b4b4, #a19e9d, #8b8887, #676464, #444343, #252424, #000000);        border-radius: 70px 70px 0 0;
-        position: relative;
-        cursor: pointer;
-        animation: floating1 3s infinite ease-in-out;
-        margin: auto;
-    }
-
-    @keyframes floating1 {
-        0% {
-            transform: translateX(-100px);
-            opacity: 0.0;
-        }
-
-        50% {
-            transform: translateX(100px);
-            opacity: 1.0;
-        }
-
-        100% {
-            transform: translateX(-100px);
-            opacity: 0.0;
-        }
-    }
-
-    @keyframes shrinking {
-        0% {
-            width: 100%;
-        }
-
-        50% {
-            width: 200%;
-        }
-        
-        100% {
-            width: 100%;
-        }
-    }
-    
-    .face {
-        width: 100px;
-        position: absolute;
-        top: 60px;
-        left: calc(50% - 50px);
-    }
-
-    .eyes {
-        height:24px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-bottom: 14px;
-    }
-
-    .eyes span {
-        width: 34px;
-        height: 34px;
-        background-color: #ed4d18;
-        border-radius: 50%;
-    }
-
-    .feet {
-        position: absolute;
-        width: 100%;
-        bottom: -20px;
-        display: flex;
-    }
-
-    /* .hantu1 .feet span {
-        flex: 1;
-        height: 20px;
-        background-color: white;
-        border-radius: 0 0 20px 20px;
-    } */
-
-    .hantu2 .feet span {
-        flex: 1;
-        height: 20px;
-        background-color: black;
-        border-radius: 0 0 20px 20px;
-    }
-
-    .feet span:first-child {
-        border-radius: 0 0 20px 12px;
-    }
-
-    .feet span:last-child {
-        border-radius: 0 0 20px 12px;
-    }
-
-    .shadow {
-        flex: 1;
-        height: 30px;
-        width: 150px;
-        margin-top: 15rem;
-        border-radius: 50%;
-        background-color: black;
-        animation: shrinking 3s infinite ease-in-out;
-    }
-
-    </style>
 
 <body>
     <!-- <div class="hantu1">
@@ -156,6 +30,7 @@
                 <span></span>
                 <span></span>            
             </div>
+            <div class="mouth"></div>
         </div>
         <div class="feet">
             <span></span>
