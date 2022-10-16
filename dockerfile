@@ -7,5 +7,5 @@ FROM nginx
 copy ./*.html /usr/share/nginx/html/
 copy ./*.css /usr/share/nginx/html/
 copy ./*.jpg /usr/share/nginx/html/
-copy ./*.png /usr/share/nginx/html/
+#copy ./*.png /usr/share/nginx/html/
 #copy ./*.js /usr/share/nginx/html/

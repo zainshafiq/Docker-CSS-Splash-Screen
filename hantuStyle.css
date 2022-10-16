@@ -11,6 +11,22 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+h2 {
+    font-weight: bolder;
+    font-family: "Lucida Handwriting", Times, serif;
+    font-size: 30px;
+    margin: 15rem 0 0 40rem;
+}
+
+h2 span {
+    margin: 0 0.5rem 0 0.5rem;
+    color: red;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 25px;
+    animation: quote 1s infinite ease-in-out;
+}
         
 /* .hantu1 {
     width: 140px;
@@ -23,6 +39,14 @@ body {
     margin: auto;
 } */
 
+a {
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 40rem;
+    margin-left: 1rem;
+}
+
 .hantu2 {
     width: 160px;
     height: 180px;
@@ -34,6 +58,16 @@ body {
     margin: 25rem 15rem auto auto;
 }
 
+@keyframes quote {
+    0% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
 @keyframes floating1 {
     0% {
         transform: translateX(-100px);
@@ -42,7 +76,7 @@ body {
 
     50% {
         transform: translateX(100px);
-        opacity: 0.9;
+        opacity: 1.0;
     }
 
     100% {
@@ -57,7 +91,7 @@ body {
     }
 
     50% {
-        width: 150%;
+        width: 140%;
     }
             
     100% {
@@ -84,15 +118,15 @@ body {
     width: 34px;
     height: 34px;
     background-color: black;
-    opacity: 0.1;
+    opacity: 0.5;
     border-radius: 50%;
 }
 
 .mouth {
     width: 40px;
-    height: 25px;
-    background-color: red;
-    opacity: 0.1;
+    height: 4px;
+    background-color: black;
+    opacity: 0.5;
     margin: auto;
     margin-top: 30px;
     border-radius: 0 0 20px 20px;
