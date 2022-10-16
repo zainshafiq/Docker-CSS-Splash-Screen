@@ -54,7 +54,7 @@ a {
     border-radius: 70px 70px 0 0;
     position: relative;
     cursor: pointer;
-    animation: floating1 3s infinite ease-in-out;
+    animation: floating 3s infinite ease-in-out;
     margin: 25rem 15rem auto auto;
 }
 
@@ -68,7 +68,7 @@ a {
     }
 }
 
-@keyframes floating1 {
+@keyframes floating {
     0% {
         transform: translateX(-100px);
         opacity: 0.0;
