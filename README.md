@@ -4,7 +4,7 @@
 
 #### CSS Ghost Reference - [Ghost Animation](https://www.youtube.com/watch?v=so5gizA6hNo)
 
-#### Background Image - [Designed by macrovector / Freepik](http://www.freepik.com)
+#### Background Image - [Designed by MACROVECTOR / Freepik](http://www.freepik.com)
 
 
 
