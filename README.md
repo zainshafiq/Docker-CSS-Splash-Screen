@@ -1,4 +1,4 @@
-## CSS Splash Screen by using Docker and NGINX (Static Web Server) DAIYAN TAK GUNA AND I HATE HER
+## CSS Splash Screen by using Docker and NGINX (Static Web Server) DAIYAN TAK GUNA ANNOYING FREAK
 
 ### Trying out the cool css ghost available on the net, and see if I can make a cool splash screen after learning from it. It could be more FUN or WEIRDer... (fingers crossed). Ouh and yes, I am doing this while trying to learn a bit about Docker, so there's probably a bunch of fancy words like NGINX, Images, Build being thrown around.
 
