@@ -5,7 +5,7 @@
 #### CSS Ghost Reference - [Ghost Animation](https://www.youtube.com/watch?v=so5gizA6hNo).
 
 #### Background Image - [Designed by Macrovector / Freepik](http://www.freepik.com).
-#### Game Background Image - [Designed by upklyak](https://www.freepik.com/free-vector/ghosts-old-cemetery-with-graves-night_13377770.htm).
+#### Game Background Image - [Designed by upklyak / Freepik](https://www.freepik.com/free-vector/ghosts-old-cemetery-with-graves-night_13377770.htm).
 
 #### Game Enemies - [Raven by Freepik](http://www.freepik.com).
 #### Game Enemies - [Pupmkin by brgfx / Freepik](https://www.freepik.com/free-vector/halloween-pumpkin-jack-olantern_24061377.htm#query=pumpkin%20cartoon&position=38&from_view=search&track=sph).
