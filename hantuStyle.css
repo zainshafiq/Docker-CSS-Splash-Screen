@@ -25,7 +25,7 @@ h2 span {
     border: 2px solid black;
     padding: 5px;
     border-radius: 25px;
-    animation: quote 1s infinite ease-in-out;
+    /* animation: quote 1s infinite ease-in-out; */
 }
         
 /* .hantu1 {
@@ -54,11 +54,11 @@ a {
     border-radius: 70px 70px 0 0;
     position: relative;
     cursor: pointer;
-    animation: floating 3s infinite ease-in-out;
+    /* animation: floating 3s infinite ease-in-out; */
     margin: 25rem 15rem auto auto;
 }
 
-@keyframes quote {
+/* @keyframes quote {
     0% {
         opacity: 0.0;
     }
@@ -97,7 +97,7 @@ a {
     100% {
         width: 100%;
     }
-}
+} */
         
 .face {
     width: 100px;
@@ -169,5 +169,5 @@ a {
     border-radius: 50%;
     background-color: #959595;
     opacity: 0.5;
-    animation: shrinking 3s infinite ease-in-out;
+    /* animation: shrinking 3s infinite ease-in-out; */
 }
